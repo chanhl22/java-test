@@ -20,7 +20,8 @@ class StudyTest {
     void create_new_study() {
         Study study = new Study();
         assertNotNull(study);
-        assertEquals(StudyStatus.DRAFT, study.getStatus(), "스터디를 처음 만들면 상태값이 DRAFT여야 한다.");
+        assertEquals(StudyStatus.DRAFT, study.getStatus(),
+                () -> "스터디를 처음 만들면 상태값이" + StudyStatus.DRAFT + " 상태다.");
     }
 
     @Test
