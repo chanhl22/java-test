@@ -15,7 +15,7 @@ import java.time.Duration;
 import static org.junit.jupiter.api.Assertions.*;
 
 @DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
-class StudyTest {
+class Study1Test {
 
     @Test
     @DisplayName("스터디 만들기")
