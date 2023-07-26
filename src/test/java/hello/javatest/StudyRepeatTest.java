@@ -9,7 +9,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
 @DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
-class Study5Test {
+class StudyRepeatTest {
 
     @DisplayName("10번 반복 테스트 1")
     @RepeatedTest(10)
