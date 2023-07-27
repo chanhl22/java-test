@@ -5,8 +5,14 @@ public class Study {
     private StudyStatus status = StudyStatus.DRAFT;
 
     private int limit;
+    private String name;
 
     public Study() {
+    }
+
+    public Study(int limit, String name) {
+        this.limit = limit;
+        this.name = name;
     }
 
     public Study(int limit) {
@@ -18,6 +24,15 @@ public class Study {
 
     public StudyStatus getStatus() {
         return this.status;
+    }
+
+    @Override
+    public String toString() {
+        return "Study{" +
+                "status=" + status +
+                ", limit=" + limit +
+                ", name='" + name + '\'' +
+                '}';
     }
 
     public int getLimit() {
