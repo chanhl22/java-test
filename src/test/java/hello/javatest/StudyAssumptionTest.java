@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assumptions.assumeTrue;
 import static org.junit.jupiter.api.Assumptions.assumingThat;
 
 @DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
-class Study2Test {
+class StudyAssumptionTest {
 
     @Test
     @DisplayName("로컬인 경우에만 테스트를 실행 - assumeTrue")
