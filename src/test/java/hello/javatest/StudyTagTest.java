@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
-class Study3Test {
+class StudyTagTest {
 
     @Test
     @DisplayName("스터디 만들기 fast")
